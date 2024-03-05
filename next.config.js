@@ -4,8 +4,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-  assetPrefix: isProd ? '/project-name/' : '',
-};
+module.exports = nextConfig;
