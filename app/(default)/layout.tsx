@@ -26,7 +26,6 @@ export default function DefaultLayout({
   return (
     <>
       <main className="grow">
-ssssssssadasdasdasdasd
         <PageIllustration />
 
         {children}
