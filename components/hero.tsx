@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 // Import your images
 import VideoThumb from '@/public/images/hero-image-01.jpg';
-import FeatImage01 from './public/images/image-01.png';
-import FeatImage02 from './public/images/image-05.png';
-import FeatImage03 from './public/images/image-03.png';
+import FeatImage01 from '@/public/images/image-01.png';
+import FeatImage02 from '@/public/images/image-05.png';
+import FeatImage03 from '@/public/images/image-03.png';
 
 export default function Hero() {
   return (
